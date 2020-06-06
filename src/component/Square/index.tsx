@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import "./Square.css";
 
 type Props = {
   color: string;
