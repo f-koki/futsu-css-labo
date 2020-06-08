@@ -10,7 +10,7 @@ const Header: React.FC = () => {
       <br />
       <Link to="/flex-box-02">flex-box-02</Link>
       <br />
-      <Link to="/flex-box-03">flex-box-03</Link>
+      <Link to="/flex-box-03">flex-box-03 align-item center</Link>
       <br />
       <Link to="/flex-box-04">flex-box-04 space-around</Link>
       <br />
