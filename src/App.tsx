@@ -9,7 +9,7 @@ import FlexBox03 from "./container/FlexBox03";
 import FlexBox04 from "./container/FlexBox04";
 import FlexBox05 from "./container/FlexBox05";
 import FlexBox06 from "./container/FlexBox06";
-// import FlexBox07 from "./container/FlexBox07";
+import FlexBox07 from "./container/FlexBox07";
 // import FlexBox08 from "./container/FlexBox08";
 // import FlexBox09 from "./container/FlexBox09";
 // import FlexBox10 from "./container/FlexBox10";
@@ -27,18 +27,18 @@ const App: React.FC = () => {
       <Route exact path="/flex-box-04" component={FlexBox04}></Route>
       <Route exact path="/flex-box-05" component={FlexBox05}></Route>
       <Route exact path="/flex-box-06" component={FlexBox06}></Route>
-      {/* <Route exact path="/flex-box-07" component={FlexBox07}></Route>
-      <Route exact path="/flex-box-08" component={FlexBox08}></Route>
-      <Route exact path="/flex-box-09" component={FlexBox09}></Route>
-      <Route exact path="/flex-box-10" component={FlexBox10}></Route>
-      <Route exact path="/flex-box-11" component={FlexBox11}></Route>
-      <Route exact path="/flex-box-12" component={FlexBox12}></Route>
-      <Route exact path="/flex-box-13" component={FlexBox13}></Route>
-      <Route exact path="/flex-box-14" component={FlexBox14}></Route>
-      <Route exact path="/flex-box-15" component={FlexBox15}></Route>
-      <Route exact path="/flex-box-16" component={FlexBox16}></Route>
-      <Route exact path="/flex-box-17" component={FlexBox17}></Route>
-      <Route exact path="/flex-box-18" component={FlexBox18}></Route> */}
+      <Route exact path="/flex-box-07" component={FlexBox07}></Route>
+      {/* <Route exact path="/flex-box-08" component={FlexBox08}></Route> */}
+      {/* <Route exact path="/flex-box-09" component={FlexBox09}></Route> */}
+      {/* <Route exact path="/flex-box-10" component={FlexBox10}></Route> */}
+      {/* <Route exact path="/flex-box-11" component={FlexBox11}></Route> */}
+      {/* <Route exact path="/flex-box-12" component={FlexBox12}></Route> */}
+      {/* <Route exact path="/flex-box-13" component={FlexBox13}></Route> */}
+      {/* <Route exact path="/flex-box-14" component={FlexBox14}></Route> */}
+      {/* <Route exact path="/flex-box-15" component={FlexBox15}></Route> */}
+      {/* <Route exact path="/flex-box-16" component={FlexBox16}></Route> */}
+      {/* <Route exact path="/flex-box-17" component={FlexBox17}></Route> */}
+      {/* <Route exact path="/flex-box-18" component={FlexBox18}></Route> */}
       <Route exact path="/square" component={Square} />
     </Router>
   );
