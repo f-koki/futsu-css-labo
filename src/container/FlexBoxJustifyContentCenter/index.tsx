@@ -2,9 +2,9 @@ import React from "react";
 import Square from "../../component/Square";
 import styled from "styled-components";
 
-const FlexBox01: React.FC = () => {
+const FlexBoxJustifyContentCenter: React.FC = () => {
   return (
-    <StyledFlexBox className="FlexBox01">
+    <StyledFlexBox className="FlexBoxJustifyContentCenter">
       <Square color="red" text="1"></Square>
       <Square color="blue" text="2"></Square>
       <Square color="green" text="3"></Square>
@@ -17,6 +17,8 @@ const FlexBox01: React.FC = () => {
 const StyledFlexBox = styled.div`
   display: flex;
   flex-flow: row;
+  /* メイン軸方向の中央配置 */
+  justify-content: center;
 `;
 
-export default FlexBox01;
+export default FlexBoxJustifyContentCenter;

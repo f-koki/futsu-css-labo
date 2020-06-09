@@ -3,12 +3,12 @@ import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Square from "./component/Square";
 import Header from "./component/Header";
-import FlexBox01 from "./container/FlexBox01";
-import FlexBox02 from "./container/FlexBox02";
-import FlexBox03 from "./container/FlexBox03";
+import FlexBoxNormal from "./container/FlexBoxNormal";
+import FlexBoxJustifyContentCenter from "./container/FlexBoxJustifyContentCenter";
 import FlexBoxJustifyContentSpaceAround from "./container/FlexBoxJustifyContentSpaceAround";
 import FlexBoxJustifyContentSpaceBetween from "./container/FlexBoxJustifyContentSpaceBetween";
 import FlexBoxJustifyContentSpaceEvenly from "./container/FlexBoxJustifyContentSpaceEvenly";
+import FlexBoxAlignItemsCenter from "./container/FlexBoxAlignItemsCenter";
 import FlexBoxAlignContentCenter from "./container/FlexBoxAlignContentCenter";
 // import FlexBox08 from "./container/FlexBox08";
 // import FlexBox09 from "./container/FlexBox09";
@@ -21,12 +21,15 @@ const App: React.FC = () => {
   return (
     <Router>
       <Route path="/" component={Header} />
-      <Route exact path="/flex-box-01" component={FlexBox01}></Route>
-      <Route exact path="/flex-box-02" component={FlexBox02}></Route>
-      <Route exact path="/flex-box-03" component={FlexBox03}></Route>
+      <Route exact path="/flex-box-normal" component={FlexBoxNormal}></Route>
       <Route
         exact
-        path="/flex-box-04"
+        path="/flex-box-justify-conetnt-center"
+        component={FlexBoxJustifyContentCenter}
+      ></Route>
+      <Route
+        exact
+        path="/flex-box-justify-content-space-around"
         component={FlexBoxJustifyContentSpaceAround}
       ></Route>
       <Route
@@ -38,6 +41,11 @@ const App: React.FC = () => {
         exact
         path="/flex-box-justify-content-space-evenly"
         component={FlexBoxJustifyContentSpaceEvenly}
+      ></Route>
+      <Route
+        exact
+        path="/flex-box-align-items-center"
+        component={FlexBoxAlignItemsCenter}
       ></Route>
       <Route
         exact
