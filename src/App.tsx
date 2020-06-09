@@ -8,8 +8,8 @@ import FlexBox02 from "./container/FlexBox02";
 import FlexBox03 from "./container/FlexBox03";
 import FlexBox04 from "./container/FlexBox04";
 import FlexBox05 from "./container/FlexBox05";
-import FlexBox06 from "./container/FlexBox06";
-import FlexBox07 from "./container/FlexBox07";
+import FlexBoxJustifyContentSpaceEvenly from "./container/FlexBoxJustifyContentSpaceEvenly";
+import FlexBoxAlignContentCenter from "./container/FlexBoxAlignContentCenter";
 // import FlexBox08 from "./container/FlexBox08";
 // import FlexBox09 from "./container/FlexBox09";
 // import FlexBox10 from "./container/FlexBox10";
@@ -26,8 +26,16 @@ const App: React.FC = () => {
       <Route exact path="/flex-box-03" component={FlexBox03}></Route>
       <Route exact path="/flex-box-04" component={FlexBox04}></Route>
       <Route exact path="/flex-box-05" component={FlexBox05}></Route>
-      <Route exact path="/flex-box-06" component={FlexBox06}></Route>
-      <Route exact path="/flex-box-07" component={FlexBox07}></Route>
+      <Route
+        exact
+        path="/flex-box-justify-content-space-evenly"
+        component={FlexBoxJustifyContentSpaceEvenly}
+      ></Route>
+      <Route
+        exact
+        path="/flex-box-align-content-center"
+        component={FlexBoxAlignContentCenter}
+      ></Route>
       {/* <Route exact path="/flex-box-08" component={FlexBox08}></Route> */}
       {/* <Route exact path="/flex-box-09" component={FlexBox09}></Route> */}
       {/* <Route exact path="/flex-box-10" component={FlexBox10}></Route> */}

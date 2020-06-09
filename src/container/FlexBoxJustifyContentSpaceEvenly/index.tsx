@@ -2,9 +2,9 @@ import React from "react";
 import Square from "../../component/Square";
 import styled from "styled-components";
 
-const FlexBox06: React.FC = () => {
+const FlexBoxJustifyContentSpaceEvenly: React.FC = () => {
   return (
-    <StyledFlexBox className="FlexBox06">
+    <StyledFlexBox className="FlexBoxJustifyContentSpaceEvenly">
       <Square color="red" text="1"></Square>
       <Square color="blue" text="2"></Square>
       <Square color="green" text="3"></Square>
@@ -24,4 +24,4 @@ const StyledFlexBox = styled.div`
   justify-content: space-evenly;
 `;
 
-export default FlexBox06;
+export default FlexBoxJustifyContentSpaceEvenly;

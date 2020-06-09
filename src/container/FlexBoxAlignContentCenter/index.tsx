@@ -2,9 +2,9 @@ import React from "react";
 import Square from "../../component/Square";
 import styled from "styled-components";
 
-const FlexBox07: React.FC = () => {
+const FlexBoxAlignContentCenter: React.FC = () => {
   return (
-    <StyledFlexBox className="FlexBox07">
+    <StyledFlexBox className="FlexBoxAlignContentCenter">
       <Square color="red" text="1"></Square>
       <Square color="blue" text="2"></Square>
       <Square color="green" text="3"></Square>
@@ -24,4 +24,4 @@ const StyledFlexBox = styled.div`
   align-content: center;
 `;
 
-export default FlexBox07;
+export default FlexBoxAlignContentCenter;
