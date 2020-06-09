@@ -16,12 +16,12 @@ const Header: React.FC = () => {
         flex-box-03 align-items(クロス軸) center 1行の中でアイテムを整列する
       </Link>
       <br />
-      <Link to="/flex-box-04">
-        flex-box-04 justify-content(主軸) space-around
+      <Link to="/flex-box-justify-content-space-around">
+        flex-box-justify-content-space-around
       </Link>
       <br />
-      <Link to="/flex-box-05">
-        flex-box-05 justify-content(主軸) space-between
+      <Link to="/flex-box-justify-content-space-between">
+        flex-box-justify-content-space-between
       </Link>
       <br />
       <Link to="/flex-box-justify-content-space-evenly">
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
       </Link>
       <br />
       <Link to="/flex-box-align-content-center">
-        flex-box-align-content-center 複数行でクロス軸方向に中央揃え
+        flex-box-align-content-center
       </Link>
       <br />
       <Link to="/flex-box-08">

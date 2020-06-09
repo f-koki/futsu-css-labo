@@ -2,9 +2,9 @@ import React from "react";
 import Square from "../../component/Square";
 import styled from "styled-components";
 
-const FlexBox05: React.FC = () => {
+const FlexBoxJustifyContentSpaceBetween: React.FC = () => {
   return (
-    <StyledFlexBox className="FlexBox05">
+    <StyledFlexBox className="FlexBoxJustifyContentSpaceBetween">
       <Square color="red" text="1"></Square>
       <Square color="blue" text="2"></Square>
       <Square color="green" text="3"></Square>
@@ -24,4 +24,4 @@ const StyledFlexBox = styled.div`
   justify-content: space-between;
 `;
 
-export default FlexBox05;
+export default FlexBoxJustifyContentSpaceBetween;
