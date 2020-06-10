@@ -30,6 +30,8 @@ const Header: React.FC = () => {
         flex-box-align-content-center
       </Link>
       <br />
+      <Link to="/grid-layout-normal">grid-layout-normal</Link>
+      <br />
     </div>
   );
 };

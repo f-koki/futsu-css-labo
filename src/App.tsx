@@ -10,17 +10,13 @@ import FlexBoxJustifyContentSpaceBetween from "./container/FlexBoxJustifyContent
 import FlexBoxJustifyContentSpaceEvenly from "./container/FlexBoxJustifyContentSpaceEvenly";
 import FlexBoxAlignItemsCenter from "./container/FlexBoxAlignItemsCenter";
 import FlexBoxAlignContentCenter from "./container/FlexBoxAlignContentCenter";
-// import FlexBox08 from "./container/FlexBox08";
-// import FlexBox09 from "./container/FlexBox09";
-// import FlexBox10 from "./container/FlexBox10";
-// import FlexBox11 from "./container/FlexBox11";
-// import FlexBox12 from "./container/FlexBox12";
-// import FlexBox13 from "./container/FlexBox13";
+import GridLayoutNormal from "./container/GridLayoutNormal";
 
 const App: React.FC = () => {
   return (
     <Router>
       <Route path="/" component={Header} />
+      <Route exact path="/square" component={Square} />
       <Route exact path="/flex-box-normal" component={FlexBoxNormal}></Route>
       <Route
         exact
@@ -52,18 +48,11 @@ const App: React.FC = () => {
         path="/flex-box-align-content-center"
         component={FlexBoxAlignContentCenter}
       ></Route>
-      {/* <Route exact path="/flex-box-08" component={FlexBox08}></Route> */}
-      {/* <Route exact path="/flex-box-09" component={FlexBox09}></Route> */}
-      {/* <Route exact path="/flex-box-10" component={FlexBox10}></Route> */}
-      {/* <Route exact path="/flex-box-11" component={FlexBox11}></Route> */}
-      {/* <Route exact path="/flex-box-12" component={FlexBox12}></Route> */}
-      {/* <Route exact path="/flex-box-13" component={FlexBox13}></Route> */}
-      {/* <Route exact path="/flex-box-14" component={FlexBox14}></Route> */}
-      {/* <Route exact path="/flex-box-15" component={FlexBox15}></Route> */}
-      {/* <Route exact path="/flex-box-16" component={FlexBox16}></Route> */}
-      {/* <Route exact path="/flex-box-17" component={FlexBox17}></Route> */}
-      {/* <Route exact path="/flex-box-18" component={FlexBox18}></Route> */}
-      <Route exact path="/square" component={Square} />
+      <Route
+        exact
+        path="/grid-layout-normal"
+        component={GridLayoutNormal}
+      ></Route>
     </Router>
   );
 };
