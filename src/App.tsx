@@ -11,6 +11,7 @@ import FlexBoxJustifyContentSpaceEvenly from "./container/FlexBoxJustifyContentS
 import FlexBoxAlignItemsCenter from "./container/FlexBoxAlignItemsCenter";
 import FlexBoxAlignContentCenter from "./container/FlexBoxAlignContentCenter";
 import GridLayoutNormal from "./container/GridLayoutNormal";
+import GridLayoutNamed from "./container/GridLayoutNamed";
 
 const App: React.FC = () => {
   return (
@@ -52,6 +53,11 @@ const App: React.FC = () => {
         exact
         path="/grid-layout-normal"
         component={GridLayoutNormal}
+      ></Route>
+      <Route
+        exact
+        path="/grid-layout-named"
+        component={GridLayoutNamed}
       ></Route>
     </Router>
   );
