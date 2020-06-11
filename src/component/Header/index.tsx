@@ -34,6 +34,8 @@ const Header: React.FC = () => {
       <br />
       <Link to="/grid-layout-named">grid-layout-named</Link>
       <br />
+      <Link to="/grid-layout-fr">grid-layout-fr</Link>
+      <br />
     </div>
   );
 };

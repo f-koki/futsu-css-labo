@@ -12,6 +12,7 @@ import FlexBoxAlignItemsCenter from "./container/FlexBoxAlignItemsCenter";
 import FlexBoxAlignContentCenter from "./container/FlexBoxAlignContentCenter";
 import GridLayoutNormal from "./container/GridLayoutNormal";
 import GridLayoutNamed from "./container/GridLayoutNamed";
+import GridLayoutFr from "./container/GridLayoutFr";
 
 const App: React.FC = () => {
   return (
@@ -59,6 +60,7 @@ const App: React.FC = () => {
         path="/grid-layout-named"
         component={GridLayoutNamed}
       ></Route>
+      <Route exact path="/grid-layout-fr" component={GridLayoutFr}></Route>
     </Router>
   );
 };
