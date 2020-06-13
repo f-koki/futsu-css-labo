@@ -40,6 +40,8 @@ const Header: React.FC = () => {
       <br />
       <Link to="/grid-layout-span">grid-layout-span</Link>
       <br />
+      <Link to="/grid-layout-auto-flow-dense">grid-layout-auto-flow-dense</Link>
+      <br />
     </div>
   );
 };
