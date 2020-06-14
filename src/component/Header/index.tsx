@@ -42,6 +42,8 @@ const Header: React.FC = () => {
       <br />
       <Link to="/grid-layout-auto-flow-dense">grid-layout-auto-flow-dense</Link>
       <br />
+      <Link to="/grid-layout-repeat">grid-layout-repeat</Link>
+      <br />
     </div>
   );
 };

@@ -16,6 +16,7 @@ import GridLayoutFr from "./container/GridLayoutFr";
 import GridLayoutAutoFlow from "./container/GridLayoutAutoFlow";
 import GridLayoutSpan from "./container/GridLayoutSpan";
 import GridLayoutAutoFlowDense from "./container/GridLayoutAutoFlowDense";
+import GridLayoutRepeat from "./container/GridLayoutRepeat";
 
 const App: React.FC = () => {
   return (
@@ -74,6 +75,11 @@ const App: React.FC = () => {
         exact
         path="/grid-layout-auto-flow-dense"
         component={GridLayoutAutoFlowDense}
+      ></Route>
+      <Route
+        exact
+        path="/grid-layout-repeat"
+        component={GridLayoutRepeat}
       ></Route>
     </Router>
   );
